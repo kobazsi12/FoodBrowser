@@ -4,5 +4,5 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class FoodListPresenter @Inject constructor(foodListInteractor: FoodListInteractor ) {
+class FoodListInteractor @Inject constructor() {
 }
