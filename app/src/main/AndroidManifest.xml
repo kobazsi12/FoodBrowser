@@ -10,7 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".recipedetail.RecipeDetailActivity"></activity>
+        <activity android:name=".newrecipe.NewRecipeActivity"></activity>
+        <activity android:name=".recipedetail.RecipeDetailActivity" />
         <activity android:name=".foodlist.FoodListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
